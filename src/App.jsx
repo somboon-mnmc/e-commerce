@@ -3,7 +3,7 @@ import './App.css'
 import Products from './Products/Products'
 import Recommended from './Recommended/Recommended'
 import Sidebar from './Sidebar/Sidebar'
-import Nav from './navigation/Nav'
+import Navbar from './Navbar/Navbar'
 import {useState} from 'react'
 
 import products from './db/data'
@@ -59,7 +59,7 @@ function App() {
   return (
     <>
       <Sidebar handleChange={handleChange}/>
-      <Nav query={query} handleInputChange={handleInputChange}/> 
+      <Navbar query={query} handleInputChange={handleInputChange}/> 
       <Recommended handleClick={handleClick}/>
       <Products result={result}/>
     </>

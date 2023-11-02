@@ -1,8 +1,8 @@
-import "./Nav.css";
+import "./Navbar.css";
 import {FiHeart} from 'react-icons/fi'
 import {AiOutlineShoppingCart, AiOutlineUserAdd} from 'react-icons/ai'
  
-const Nav = () => {
+const Navbar = () => {
   return (
     <nav>
       <div className="nav-container">
@@ -23,4 +23,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navbar;
