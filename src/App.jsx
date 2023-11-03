@@ -7,7 +7,8 @@ import Navbar from './Navbar/Navbar'
 import {useState} from 'react'
 
 import products from './db/data'
-import Card from './components/card'
+import Cards from './components/Cards'
+
 
 function App() {
   const [selectCategory, setSelectCategory] = useState(null)
@@ -41,7 +42,7 @@ function App() {
     }
 
     return filteredProducts.map(({img, title, start, newPrice, reviews, prevPrice}) => (
-      <Card 
+      <Cards 
         key={Math.random()}
         img={img}
         title={title}

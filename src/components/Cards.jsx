@@ -1,7 +1,7 @@
 
 import { BsFillBagHeartFill } from "react-icons/bs";
 
-const Card = ({ img, title, star, newPrice, reviews, prevPrice }) => {
+const Cards = ({ img, title, star, newPrice, reviews, prevPrice }) => {
   return (
     <section className="card">
       <img src={img} alt={title} className="card-image" />
@@ -24,4 +24,4 @@ const Card = ({ img, title, star, newPrice, reviews, prevPrice }) => {
   );
 };
 
-export default Card;
+export default Cards;
